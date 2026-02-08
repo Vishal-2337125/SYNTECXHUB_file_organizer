@@ -19,12 +19,12 @@ It will prompt:
 ```text
 Enter the full path of the folder to organize:
 ```
-Paste your path (e.g., `C:\Users\visha\OneDrive\Documents`) and hit Enter.
+Paste your path and hit Enter.
 
 ### 2. Command Line
 Run the script passing the folder you want to organize:
 ```powershell
-python organize_files.py "C:\Users\visha\OneDrive\Documents"
+python organize_files.py "
 ```
 
 ### Dry Run (Preview)
@@ -41,6 +41,6 @@ To run this automatically every day:
 3.  Set trigger to **Daily**.
 4.  Action: **Start a program**.
 5.  Program: `python` (or full path to python.exe).
-6.  Arguments: `"C:\Users\visha\.gemini\antigravity\scratch\file_organizer\organize_files.py" "C:\Users\visha\OneDrive\Documents"`
+6.  Arguments
 
 Enjoy your organized files!
